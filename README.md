@@ -1,3 +1,10 @@
+# Readme
+
+This project is to collate all required components to react app. This should be a standard install and help to develop a react web app soon .
+
+
+--------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
