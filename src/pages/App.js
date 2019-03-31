@@ -10,15 +10,15 @@ class App extends Component {
   renderHeader = () => {
     return (
       <ul>
-          <li>
-            <Link className="active" to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/components">Components</Link>
-          </li>
+        <li>
+          <Link className="active" to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/components">Components</Link>
+        </li>
       </ul>
     );
   };
@@ -28,14 +28,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Router>
-          <div>
-            {this.renderHeader()}
+            <div>
+              {this.renderHeader()}
 
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/topics" component={Topics} />
-            <Route path="/components" component={Components} />
-          </div>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/topics" component={Topics} />
+              <Route path="/components" component={Components} />
+            </div>
         </Router>
         </header>
 
